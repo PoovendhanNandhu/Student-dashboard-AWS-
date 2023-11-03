@@ -8,3 +8,13 @@ Interactive Dashboard: Displays student information, financial summaries, and ac
 Course Management: View and manage enrolled courses directly from the dashboard.
 Assignment Tracking: A dedicated section for viewing and submitting assignments.
 AWS Amplify Backend: Utilizes AWS Amplify for backend support ensuring a robust and scalable architecture.
+
+Technical Stack
+Frontend: React
+Backend: AWS Amplify
+Routing: react-router-dom
+Styling: CSS
+Installation
+Clone the repository, install the dependencies, and run the application locally to explore the features. Check the README for detailed setup instructions.
+
+
