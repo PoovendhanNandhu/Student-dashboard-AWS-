@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-studentsite2-dev-122746-authRole",
+      "UnauthRoleArn": "arn:aws:iam::418132429961:role/amplify-studentsite2-dev-122746-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::418132429961:role/amplify-studentsite2-dev-122746-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-studentsite2-dev-122746-deployment",
+      "UnauthRoleName": "amplify-studentsite2-dev-122746-unauthRole",
+      "StackName": "amplify-studentsite2-dev-122746",
+      "StackId": "arn:aws:cloudformation:us-east-1:418132429961:stack/amplify-studentsite2-dev-122746/4e02ce60-7a16-11ee-af1d-0e6082442815",
+      "AmplifyAppId": "d2ywl0tdh5fmnb"
+    },
+    "categories": {
+      "auth": {
+        "studentsite2a5fde6c7": {}
+      },
+      "function": {
+        "studentsite25a88e69d": {
+          "deploymentBucketName": "amplify-studentsite2-dev-122746-deployment",
+          "s3Key": "amplify-builds/studentsite25a88e69d-5663322b6c7a2f424947-build.zip"
+        }
+      },
+      "storage": {
+        "dynamo123": {}
+      },
+      "api": {
+        "api0student": {}
+      }
+    }
+  }
+}

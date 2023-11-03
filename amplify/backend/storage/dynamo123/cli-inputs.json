@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamo123",
+  "tableName": "studentstable",
+  "partitionKey": {
+    "fieldName": "studentID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

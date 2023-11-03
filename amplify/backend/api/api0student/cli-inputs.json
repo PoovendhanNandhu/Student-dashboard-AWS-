@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/student/{studentID}": {
+      "name": "/student/{studentID}",
+      "lambdaFunction": "studentsite25a88e69d",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/students": {
+      "name": "/students",
+      "lambdaFunction": "studentsite25a88e69d",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
