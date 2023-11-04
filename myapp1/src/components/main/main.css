@@ -1,0 +1,123 @@
+body .db-dashboard-container { 
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0 !important;
+    padding: 0;
+}
+
+#sidebar {
+    width: 20%;
+    background-color: #6C5BDB;
+    padding: 1rem;
+    color: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+#menu-dashboard, 
+#menu-payment-info, 
+#menu-registration, 
+#menu-courses, 
+#menu-drop-semester, 
+#menu-result, 
+#menu-notice, 
+#menu-schedule, 
+#menu-logout {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+#icon-container img {
+    width: 50px;
+    margin-bottom: 2rem;
+}
+
+#main-content {
+    width: 80%;
+    padding: 2rem;
+    background-color: #EDEDED;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+#search-bar input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#user-image {
+    width: 50px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+
+#welcome-section {
+    background-color: #6C5BDB;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#finance-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#finance-payable, 
+#finance-paid, 
+#finance-others {
+    background-color: white;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#course-section {
+    margin-top: 2rem;
+}
+
+#course-oop, 
+#course-database {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+#course-oop:hover, 
+#course-database:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
